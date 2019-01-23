@@ -1,3 +1,5 @@
+
+
 import java.io.*;
 import org.apache.commons.csv.*;
 
@@ -16,10 +18,10 @@ public class CSVDemo
         String grade = record.get("Grade");
         System.out.println(firstName + " " + lastName + " (" + grade + ")");
       }
-      catch(IOException e)
+    }
+	catch(IOException e)
       {
         e.printStackTrace();
       }
-    }
   }
 }
