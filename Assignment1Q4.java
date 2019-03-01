@@ -38,7 +38,7 @@ public class Assignment1Q4 extends Application
         bc.setTitle("Occurences of Letters");
         bc.setBarGap(-4);//gap between bars
         bc.setPrefWidth(1);
-        bc.getXAxis().setTickLabelsVisible(false);
+        bc.getXAxis().setTickLabelsVisible(true);
         //used stackpane to position components
         StackPane pane = new StackPane();
         XYChart.Series series1 = new XYChart.Series();
