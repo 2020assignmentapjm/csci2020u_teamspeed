@@ -38,6 +38,7 @@ public class Assignment1Q4 extends Application
         bc.setTitle("Occurences of Letters");
         bc.setBarGap(-4);//gap between bars
         bc.setPrefWidth(1);
+        bc.getXAxis().setTickLabelsVisible(false);
         //used stackpane to position components
         StackPane pane = new StackPane();
         XYChart.Series series1 = new XYChart.Series();
@@ -210,6 +211,7 @@ public class Assignment1Q4 extends Application
         stage.setScene(scene);
         stage.show();
     }
+
     public static void main(String[] args) 
     {
         launch(args);
